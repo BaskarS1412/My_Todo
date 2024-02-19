@@ -1,0 +1,104 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+
+body {
+  background-color: white;
+  background-size: 1050px;
+
+}
+
+.outer-container {
+  padding: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.form-control {
+  box-shadow: 13px 4px 15px 3px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 13px 4px 15px 3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 13px 4px 15px 3px rgba(0, 0, 0, 0.75);
+}
+
+.cardlist-container {
+  margin-top: 20px;
+  margin-left: 2px;
+  row-gap: 20px;
+
+}
+
+.form-row {
+  row-gap: 10px;
+}
+
+.card {
+  padding: 10px;
+  box-shadow: 13px 4px 15px 3px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 13px 4px 15px 3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 13px 4px 15px 3px rgba(0, 0, 0, 0.75);
+}
+
+.card-status {
+  color: white;
+}
+
+h1{
+  text-align: center;
+  color: rgb(59, 198, 59);
+}
+
+.box-algn {
+  width: 500px;
+  border-color: rgb(59, 198, 59);
+  border-radius: 10px;
+
+}
+
+.font-size {
+  font-size: 25px;
+}
+
+.bg-color {
+  margin-top: 50px;
+  background-color: #CCF5D3;
+}
